@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 function SectionHelp() {
     return ( 
-    <section className='bg-secondary-400'>
+    <section className='bg-secondary-400 w-full'>
         <GridContainer className='flex justify-between items-center max-md:p-1 p-4  gap-6'>
            <div className='flex items-center gap-4'>
                 <Image 
