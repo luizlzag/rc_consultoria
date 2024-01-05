@@ -82,13 +82,13 @@ function SectionForm() {
              <div className='bg-white rounded-md px-4 py-4 text-center align-middle'>
                 <h1 className='font-bold text-4xl'>CONTATO</h1>
                 <p className='text-xl text-black mb-4'>Dúvidas, reclamações, sugestões ou elogios? Entre em contato conosco!</p>
-                <div className='grid gap-4 mb-4 text-lg cursor-pointer'>
+                <div className='grid gap-4 mb-4 text-lg cursor-pointer max-md:text-sm'>
                     <a>(17) 99171-7370</a>
                     <a>rc_consultoriatributaria</a>
                     <a>rc consultoria tributaria</a>
                     <a>contato@rcconsultoriatributaria.com.br</a>
                 </div>
-                <p>Fale com um de nossos consultores</p>
+                <p className='text-black'>Fale com um de nossos consultores</p>
                 <button className='rounded px-2 py-2 0'>Fale agora pelo WhatsApp!</button>
              </div>
         </GridContainer>
