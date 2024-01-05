@@ -23,13 +23,13 @@ function SectionForm() {
       };
     return ( 
     <section className='pt-10 bg-gray-200 p-4' id='form'>
-        <GridContainer className='flex justify-center items-center gap-6 max-md:grid-cols-1 bg-white rounded-lg shadow-lg'>
+        <GridContainer className='flex justify-center items-center gap-6 max-md:grid-cols-1 bg-white rounded-xl shadow-lg'>
         <div className='m-6'>
           <MdOutlineEmail size={48} color={'white'} className='rounded-full bg-secondary-500 py-2 px-2' />
-          <h1 className='text-4xl font-bold'>Fale com a RC Consultoria</h1>
-          <p className='text-black text-lg'>Em breve nossos consultores entrarão em contato com você</p>
+          <h1 className='text-2xl font-bold'>Fale com a RC Consultoria</h1>
+          <p className='text-black text-base'>Em breve nossos consultores entrarão em contato com você</p>
           </div>
-            <form onSubmit={handleSubmit} className=" bg-slate-50 rounded-md w-[50%] m-6 py-4 px-4 ">
+            <form onSubmit={handleSubmit} className=" bg-slate-50 shadow-md rounded-md w-[50%] m-6 py-4 px-4 ">
                     <div className="mb-6">
                         <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900">Nome</label>
                         <input
