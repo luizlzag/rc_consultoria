@@ -4,6 +4,7 @@ import './globals.css'
 import BannerContat from './components/banner-header'
 import Header from './components/header'
 import WaContact from './components/wa-contact'
+import Footer from './components/footer'
 
 const inter = Montserrat({ subsets: ['latin'] })
 
@@ -23,6 +24,7 @@ export default function RootLayout({
         <Header/>
         <WaContact/>
         {children}
+        <Footer/>
         </body>
     </html>
   )

@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 function WaContact() {
     return ( 
-        <footer className='fixed bottom-3 right-5'>
+        <footer className='fixed bottom-3 right-5 cursor-pointer'>
             <Image 
             src={wpp}
             alt='wpp'/>

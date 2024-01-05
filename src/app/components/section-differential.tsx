@@ -18,15 +18,15 @@ function SectionDiferential() {
                     <h1 className='text-4xl'>Nossos</h1>
                     <h2 className='text-5xl'>diferenciais</h2>
                 </div>
-                <div className='flex items-center gap-8 mt-2'>
-                    <div className='bg-white rounded-md w-[50%] px-2 pb-1 '>
+                <div className='flex items-center gap-8 mt-2 max-md:grid'>
+                    <div className='bg-white rounded-md w-[50%] max-md:w-full px-2 pb-1 '>
                         <Image
                         src={LogoRc}
                         alt='LogoRc'/>
-                        <h1 className='text-3xl text-primary-500 mb-12'>Trabalhamos para que nossos parceiros obtenham</h1>
-                        <h1 className='text-4xl font-semibold'>maior liquidez e uma melhor gestão das questões tributárias.</h1>
+                        <h1 className='text-3xl text-primary-500 mb-12 max-md:text-xl'>Trabalhamos para que nossos parceiros obtenham</h1>
+                        <h1 className='text-4xl font-semibold max-md:text-2xl'>maior liquidez e uma melhor gestão das questões tributárias.</h1>
                     </div>
-                    <div className='text-2xl'>
+                    <div className='text-2xl max-md:text-xl'>
                         <p className='mb-4'>Contribuindo com a geração de RESULTADOS</p>
                         <p className='mb-4'>Melhorando e gerando fluxo de caixa</p>
                         <p className='mb-4'>Buscando o compliance fiscal</p>
