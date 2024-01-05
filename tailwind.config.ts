@@ -19,6 +19,9 @@ const config: Config = {
         "secondary-400": "#e6bf83",
         "secondary-500": "#d4af37",
       },
+      backgroundImage:{
+        'parallax':'url("/banner-logo-04.jpg")',
+      },
     },
   },
   plugins: [],
