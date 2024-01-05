@@ -25,6 +25,7 @@ function SectionForm() {
     <section className='pt-20 bg-gray-200 p-4' id='form'>
         <GridContainer className='grid grid-cols-2 gap-6 max-md:grid-cols-1'>
             <form onSubmit={handleSubmit} className=" bg-white rounded-md px-4 py-4 shadow">
+              <h1 className='text-center text-xl font-bold mb-2'>ENVIE UMA MENSAGEM !</h1>
                     <div className="mb-6">
                         <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900">Nome</label>
                         <input
