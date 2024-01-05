@@ -18,7 +18,7 @@ function SectionServices() {
                 alt='servicos'
                 />
                 <ul className='text-2xl max-md:text-lg font-base text-black'>
-                    <li className='flex items-center  gap-2 mb-6'><CiCircleCheck size={28} color={'#d4af37'} /> Recuperação Tributária para Pessoas Físicas </li>
+                    <li className='flex items-center  gap-2 mb-4'><CiCircleCheck size={28} color={'#d4af37'} /> Recuperação Tributária para Pessoas Físicas </li>
                     <li className='flex items-center  gap-2 mb-4'><CiCircleCheck size={28}  color={'#d4af37'}/> Consultoria Tributária e Previdenciária</li>
                     <li className='flex items-center  gap-2 mb-4'><CiCircleCheck size={28}  color={'#d4af37'}/> Recuperação de Créditos Tributários</li>
                     <li className='flex items-center  gap-2 mb-4'><CiCircleCheck size={28}  color={'#d4af37'}/> Resoluções de Problemas Tributários</li>
