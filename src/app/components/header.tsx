@@ -46,7 +46,7 @@ function Header() {
           ))
         }
         <button className='py-2 px-2 rounded'>
-          CONTATO
+          <a href='#form'>CONTATO</a>
         </button>
       </ul>
       </div>
