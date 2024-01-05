@@ -16,7 +16,7 @@ function SectionHero() {
             <GridContainer>
                 <div className='pt-24'>
                     <h2 className='text-4xl mb-4'>Somo especialistas em</h2>
-                    <h1 className='text-6xl mb-16'>Inteligência tributária</h1>
+                    <h1 className='text-6xl max-md:text-5xl mb-16'>Inteligência tributária</h1>
                     <button className='rounded px-2 py-2'>Fale Conosco</button>
                 </div>
             </GridContainer>
