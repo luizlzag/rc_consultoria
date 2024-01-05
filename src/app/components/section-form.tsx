@@ -1,7 +1,7 @@
 "use client";
 import React,{useState} from 'react'
 import GridContainer from './grid';
-
+import { MdOutlineEmail } from "react-icons/md";
 
 function SectionForm() {
     const [formData, setFormData] = useState({
@@ -22,10 +22,14 @@ function SectionForm() {
         console.log('enviado')
       };
     return ( 
-    <section className='pt-20 bg-gray-200 p-4' id='form'>
-        <GridContainer className='grid grid-cols-2 gap-6 max-md:grid-cols-1'>
-            <form onSubmit={handleSubmit} className=" bg-white rounded-md px-4 py-4 shadow">
-              <h1 className='text-center text-xl font-bold mb-2'>ENVIE UMA MENSAGEM !</h1>
+    <section className='pt-10 bg-gray-200 p-4' id='form'>
+        <GridContainer className='flex justify-center items-center gap-6 max-md:grid-cols-1 bg-white rounded-lg shadow-lg'>
+        <div className='m-6'>
+          <MdOutlineEmail size={48} color={'white'} className='rounded-full bg-secondary-500 py-2 px-2' />
+          <h1 className='text-4xl font-bold'>Fale com a RC Consultoria</h1>
+          <p className='text-black text-lg'>Em breve nossos consultores entrarão em contato com você</p>
+          </div>
+            <form onSubmit={handleSubmit} className=" bg-slate-50 rounded-md w-[50%] m-6 py-4 px-4 ">
                     <div className="mb-6">
                         <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900">Nome</label>
                         <input
@@ -80,7 +84,7 @@ function SectionForm() {
                     </div>
                     <button type="submit" className="font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Enviar</button>
              </form>
-             <div className='bg-white rounded-md px-4 py-4 text-center align-middle'>
+             {/* <div className='bg-white rounded-md px-4 py-4 text-center align-middle'>
                 <h1 className='font-bold text-4xl'>CONTATO</h1>
                 <p className='text-xl text-black mb-4'>Dúvidas, reclamações, sugestões ou elogios? Entre em contato conosco!</p>
                 <div className='grid gap-4 mb-4 text-lg cursor-pointer max-md:text-sm'>
@@ -91,7 +95,7 @@ function SectionForm() {
                 </div>
                 <p className='text-black'>Fale com um de nossos consultores</p>
                 <button className='rounded px-2 py-2 0'>Fale agora pelo WhatsApp!</button>
-             </div>
+             </div> */}
         </GridContainer>
     </section> 
     );
