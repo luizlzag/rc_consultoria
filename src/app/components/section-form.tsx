@@ -3,22 +3,25 @@ import React,{useState} from 'react'
 import GridContainer from './grid';
 import { MdOutlineEmail } from "react-icons/md";
 import emailjs from '@emailjs/browser';
-
+import { FaWhatsapp } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
+import { TbBrandGoogleMaps } from "react-icons/tb";
 
 function SectionForm() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
+  const [wpp, setWpp] = useState('')
 
   function sendEmail(e: { preventDefault: () => void; }){
     e.preventDefault();
-    if(name === '' || email === ''|| message==''){
+    if(name === '' || email === ''|| message==='' || wpp===''){
       alert("Preencha todos os dados")
       return;
     }
     const templateParams = {
       from_name: name,
-      message: message,
+      message: message+" WhatsApp:"+wpp,
       email: email,
     }
     emailjs.send("service_iyqgili","template_1cbfqjj",templateParams,"Jz_f6I01jXwjFu9v0")
@@ -32,14 +35,32 @@ function SectionForm() {
 
 
     return ( 
-    <section className='pt-10 bg-gray-200 p-4' id='form'>
-        <GridContainer className='flex justify-center items-center gap-6 max-md:grid-cols-1 bg-white rounded-xl shadow-lg max-md:grid'>
-        <div className='m-6'>
-          <MdOutlineEmail size={48} color={'white'} className='rounded-full bg-secondary-500 py-2 px-2' />
-          <h1 className='text-2xl font-bold'>Fale com a RC Consultoria</h1>
-          <p className='text-black text-base'>Em breve nossos consultores entrarão em contato com você</p>
-          </div>
-            <form  onSubmit={sendEmail} className=" bg-slate-50 shadow-md rounded-md w-[50%] max-md:w-[80%]  m-6 py-4 px-4 ">
+    <section className='pt-10 p-4' id='form'>
+        <GridContainer className=' flex  items-center gap-6 bg-white rounded-xl shadow-lg max-md:grid'>
+
+        <div className='bg-white rounded-md px-4 py-4 text-center align-middle text-secondary-400 grid'>
+                <div className='grid gap-4 mb-4 text-lg cursor-pointer max-md:text-sm'>
+                    <a className=' rounded  py-10 px-8 bg-primary-100
+                    brightness-75
+                    hover:brightness-110
+                    transition-all duration-500 flex items-center justify-center gap-2'><FaWhatsapp/>(17) 99171-7370</a>
+                    <a className=' rounded  py-10 px-8 bg-primary-100
+                                        brightness-75
+                                        hover:brightness-110
+                    transition-all duration-500 flex items-center justify-center gap-2'><MdEmail/>contato@rcconsultoriatributaria.com.br</a>
+                    <a className=' rounded  py-10 px-8 bg-primary-100
+                                        brightness-75
+                                        hover:brightness-110
+
+                    transition-all duration-500 flex items-center justify-center gap-2'><TbBrandGoogleMaps/>Av. Anísio Haddad, 6.900 | Sala 05 | S. J. Rio Preto - SP</a>
+                </div>
+        </div>
+
+
+          <div className=' m-6 py-4 px-4 w-full '>
+            <h1 className='text-2xl font-bold'>Fale com a RC Consultoria</h1>
+            <p className='text-black text-base'>Em breve nossos especialistas entraram em contato</p>
+             <form  onSubmit={sendEmail}>
                     <div className="mb-6">
                         <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900">Nome</label>
                         <input
@@ -67,6 +88,19 @@ function SectionForm() {
                         />
                     </div>
                     <div className="mb-6">
+                        <label htmlFor="whatsapp" className="block mb-2 text-sm font-medium text-gray-900">Whatsapp</label>
+                        <input
+                        type="text"
+                        id="WhatsApp"
+                        name="WhatsApp"
+                        value={wpp}
+                        onChange={(e)=>setWpp(e.target.value)}
+                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                        placeholder="Seu melhor numero"
+                        required
+                        />
+                    </div>
+                    <div className="mb-6">
                         <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900">Mensagem</label>
                         <textarea
                         id="message"
@@ -81,18 +115,9 @@ function SectionForm() {
                     </div>
                     <input type="submit" value="Enviar" className="font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center cursor-pointer"/>
              </form>
-             {/* <div className='bg-white rounded-md px-4 py-4 text-center align-middle'>
-                <h1 className='font-bold text-4xl'>CONTATO</h1>
-                <p className='text-xl text-black mb-4'>Dúvidas, reclamações, sugestões ou elogios? Entre em contato conosco!</p>
-                <div className='grid gap-4 mb-4 text-lg cursor-pointer max-md:text-sm'>
-                    <a>(17) 99171-7370</a>
-                    <a>rc_consultoriatributaria</a>
-                    <a>rc consultoria tributaria</a>
-                    <a>contato@rcconsultoriatributaria.com.br</a>
-                </div>
-                <p className='text-black'>Fale com um de nossos consultores</p>
-                <button className='rounded px-2 py-2 0'>Fale agora pelo WhatsApp!</button>
-             </div> */}
+            </div>
+
+
         </GridContainer>
     </section> 
     );

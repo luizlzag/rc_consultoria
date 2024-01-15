@@ -9,25 +9,20 @@ function SectionServices() {
     return ( 
     <section id="services" className='pt-20 bg-white'>
         <GridContainer>
-            <div className='text-center mb-10'>
-                <h2 className='text-2xl'>"Amamos o que fazemos e executamos com disciplina, determinação e comprometimento. Trabalhamos com prazer e acreditamos na gestão tributária inteligente"</h2>
+            <div className='text-left mb-10'>
+                <h1 className='text-2xl font-bold text-primary-100'>SERVIÇOS</h1>
+                <div className='bg-secondary-400 rounded-full py-1 px-4 w-32 '/>
             </div>
-            <div className='flex justify-center items-center gap-5 max-md:grid '>
-                <Image
-                src={services}
-                alt='servicos'
-                />
-                <ul className='text-2xl max-md:text-lg font-base text-black'>
-                    <li className='flex items-center  gap-2 mb-4'><CiCircleCheck size={28} color={'#d4af37'} /> Recuperação Tributária para Pessoas Físicas </li>
-                    <li className='flex items-center  gap-2 mb-4'><CiCircleCheck size={28}  color={'#d4af37'}/> Consultoria Tributária e Previdenciária</li>
-                    <li className='flex items-center  gap-2 mb-4'><CiCircleCheck size={28}  color={'#d4af37'}/> Recuperação de Créditos Tributários</li>
-                    <li className='flex items-center  gap-2 mb-4'><CiCircleCheck size={28}  color={'#d4af37'}/> Resoluções de Problemas Tributários</li>
-                    <li className='flex items-center  gap-2 mb-4'><CiCircleCheck size={28}   color={'#d4af37'}/> Revisão de Obrigações Acessórias</li>
-                    <li className='flex items-center  gap-2 mb-4'><CiCircleCheck size={28}  color={'#d4af37'}/> Cálculos de Teses Judiciais</li>
-                    <li className='flex items-center  gap-2 mb-4'><CiCircleCheck size={28}  color={'#d4af37'}/> Planejamento Tributário</li>
-                    <li className='flex items-center gap-2 mb-4'><CiCircleCheck size={28}  color={'#d4af37'}/> Cálculos Trabalhistas</li>
-                    <li className='flex items-center  gap-2 mb-4'><CiCircleCheck size={28}  color={'#d4af37'}/> Auditoria Digital</li>
-                </ul>
+            <div className='grid grid-cols-3 justify-center items-center gap-5 max-md:grid text-white '>
+                    <div className='flex gap-2 items-center bg-primary-100 py-4 px-4 h-[80] rounded shadow'><CiCircleCheck size={28} color={'#d4af37'} /> Recuperação Tributária</div>
+                    <div className='flex gap-2 items-center bg-primary-100 py-4 px-4 h-[80] rounded shadow'><CiCircleCheck size={28}  color={'#d4af37'}/> Consultoria Tributária e Previdenciária</div>
+                    <div className='flex gap-2 items-center bg-primary-100 py-4 px-4 rounded shadow'><CiCircleCheck size={28}  color={'#d4af37'}/> Recuperação de Créditos Tributários</div>
+                    <div className='flex gap-2 items-center bg-primary-100 py-4 px-4 rounded shadow'><CiCircleCheck size={28}  color={'#d4af37'}/> Resoluções de Problemas Tributários</div>
+                    <div className='flex gap-2 items-center bg-primary-100 py-4 px-4 rounded shadow'><CiCircleCheck size={28}   color={'#d4af37'}/> Revisão de Obrigações Acessórias</div>
+                    <div className='flex gap-2 items-center bg-primary-100 py-4 px-4 rounded shadow'><CiCircleCheck size={28}  color={'#d4af37'}/> Cálculos de Teses Judiciais</div>
+                    <div className='flex gap-2 items-center bg-primary-100 py-4 px-4 rounded shadow'><CiCircleCheck size={28}  color={'#d4af37'}/> Planejamento Tributário</div>
+                    <div className='flex gap-2 items-center bg-primary-100 py-4 px-4 rounded shadow'><CiCircleCheck size={28}  color={'#d4af37'}/> Cálculos Trabalhistas</div>
+                    <div className='flex gap-2 items-center bg-primary-100 py-4 px-4 rounded shadow'><CiCircleCheck size={28}  color={'#d4af37'}/> Auditoria Digital</div>
             </div>
         </GridContainer>
     </section> 

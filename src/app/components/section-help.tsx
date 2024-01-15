@@ -5,21 +5,23 @@ import Image from 'next/image';
 
 function SectionHelp() {
     return ( 
-    <section className='bg-secondary-400 w-full'>
-        <GridContainer className='flex justify-between items-center max-md:p-1 p-4  gap-6'>
-           <div className='flex items-center gap-4'>
-                <Image 
-                src={consultor}
-                alt='consultor'
-                className='rounded-full flex  w-20 max-md:h-16'
-                />
-                <div>
-                    <h2 className='text-white text-2xl max-md:text-base'>PRECISA DE AJUDA?</h2>
-                    <h1 className='text-blue-950 text-4xl font-bold max-md:text-base'>Fale com nossos especialistas</h1>
+    <section>
+        <GridContainer>
+            <div className='bg-primary-100 py-10 px-10 rounded shadow-lg flex items-center  justify-evenly'>
+                <div className='flex gap-10 items-center'>
+                    <Image
+                    src={consultor}
+                    alt='consultor'
+                    width={100}
+                    />
+                    <div className='text-white text-2xl'>
+                        <h1 className='font-bold'>PRECISA DE AJUDA ? </h1>
+                        <h2 className='font-light'>Fale com nossos especialistas</h2>
+                    </div>
                 </div>
-          </div>
-            <div >
-                <button className='rounded-md py-6 px-4 max-md:py-2 max-md:px-4 bg-white hover:animate-pulse hover:bg-white'>Chamar agora</button>
+                <div>
+                    <button className='rounded bg-secondary-400 py-6 px-6 font-semibold animate-pulse'>CHAMAR AGORA !</button>
+                </div>
             </div>
         </GridContainer>
     </section> 

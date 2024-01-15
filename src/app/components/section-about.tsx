@@ -1,24 +1,28 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import GridContainer from './grid';
 import Image from 'next/image';
-import About from '../../../public/whoAreWe.jpg'
+import about from '../../../public/file.png'
 
 
 function SectionAbout() {
     return ( 
-        <section id="about" className='pt-6 w-full my-4'>
-            <GridContainer className='flex gap-6 max-md:grid items-center '>
-                <div className='w-[80%] max-md:w-[100%]'>
-                    <p className='text-xl max-md:text-base'>Somos uma empresa de <span className='font-semibold'>inteligência tributária</span>, com objetivo de trazer aos nossos parceiros resultados eficientes e ser referência em todo Brasil. <br/>
-                        <br/> <span className='font-semibold'>Focamos em resultados</span> que podem ajudar sua empresa a crescer. 
-                        <br/><br/>Trabalhamos para identificar e criar soluções legais de recuperação de créditos e soluções eficientes para <span className='font-semibold'>redução de custos tributários.</span></p>
-                </div>
-                <div className='w-[50%] '>
+        <section id="about" className='pt-20 w-full my-4'>
+            <GridContainer className='flex max-md:grid items-center '>
+                <div className=' rounded py-4 px-4 flex justify-around'>
+                    <div>
+                        <h1 className='text-primary-100 font-semibold mb-4 text-2xl'>QUEM SOMOS<div className='bg-secondary-400 rounded-full py-1 px-4 w-24'/></h1>
+                        <div className=' grid grid-cols-1 gap-8 font-semibold text-primary-100'>
+                            <p>Somos uma empresa de inteligência tributária, com objetivo de trazer aos nossos parceiros resultados eficientes e ser referência em todo Brasil.</p>
+                            <p>Focamos em resultados que podem ajudar sua empresa a crescer.</p>
+                            <p>Trabalhamos para identificar e criar soluções legais de recuperação de crédios e soluções eficientes para redução de custos tributários</p>
+                        </div>
+                    </div>
                     <Image
-                    src={About}
-                    alt='logo'
-                    className='rounded-md '
-                    />
+                        src={about}
+                        alt='about'
+                        width={495}
+                        />
                 </div>
             </GridContainer>
         </section>

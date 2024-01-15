@@ -10,44 +10,17 @@
   }
   
   body{
-    background-color: #0B3C5D;
-  }
-  h1{
-    color: #d4af37;
-  }
-  h2{
-    font-weight: 600;
-    color: #d4af37;
-  }
-  p{
-    color:#f5f5f5 ;
-  }
-  span{
-  
-    color:#d4af37;
-  }
-  header{
     background-color: white;
   }
-  button{
-    background-color: #d4af37;
-    color: #0B3C5D ;
-    font-weight: 600;
-    
-  }
-  button:hover{
-    background-color: #e6bf83;
-  }
-  a{
-    color: #1B6CA8;
-    font-size: bold;
-  }
-  a:hover{
-    opacity: 100;
-    color: #d4af37;
-  }
-  
-  
-  ul{
-    color: white;
-  }
+
+  /* CSS para alterar a cor da seleção de texto */
+::selection {
+  background-color:#BF8D39; /* cor de fundo dourada */
+  color: black; /* cor do texto durante a seleção, preto neste caso */
+}
+
+/* Para compatibilidade com navegadores mais antigos, como o Safari */
+::-webkit-selection {
+  background-color: #BF8D39;
+  color: black;
+}
