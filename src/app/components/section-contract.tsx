@@ -34,7 +34,7 @@ function SectionWhyContract() {
             opacity:1,
             x:0,
             duration: 1.5,
-
+            stagger:0.5,
             scrollTrigger:{
                 trigger:section,
                 start:'15% center'
@@ -52,7 +52,7 @@ function SectionWhyContract() {
 
             scrollTrigger:{
                 trigger:section,
-                start:'18% center'
+                start:'15% center'
             }
         })
     }

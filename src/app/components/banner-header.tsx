@@ -39,13 +39,13 @@ function BannerContat() {
         <section className={`cursor-pointer relative p-2 bg-primary-100 max-md:hidden transition-all ease-in duration-75 ${show ? 'visible' : 'hidden' }`}>
             <GridContainer className='flex justify-around items-center'>
                 <div>
-                     <a className='text-white text-sm flex items-center justify-center gap-1'> <BsFillTelephoneFill />(17) 99171-7370</a>
+                     <a href='https://api.whatsapp.com/send?phone=5517991717370&text=Ol%C3%A1,%20gostaria%20de%20entender%20melhor%20' target='_blank' className='text-white text-sm flex items-center justify-center gap-1'> <BsFillTelephoneFill />(17) 99171-7370</a>
                 </div>
                 <div >
                     <a className='text-white text-sm flex items-center justify-center gap-1'><MdEmail />contato@rcconsultoriatributaria.com.br</a>
                 </div>
                 <div>
-                    <a className='text-white text-sm flex items-center justify-center gap-1'><TbBrandGoogleMaps />Av. Anísio Haddad, 6.900 | Sala 05 | S. J. Rio Preto - SP</a>
+                    <a href='https://maps.app.goo.gl/7xxt2a4ykWH5ehEAA' target='_blank' className='text-white text-sm flex items-center justify-center gap-1'><TbBrandGoogleMaps />Av. Anísio Haddad, 6.900 | Sala 05 | S. J. Rio Preto - SP</a>
                 </div>
                 <div className='flex gap-4'>
                     <p className='hover:bg-blue-900 py-2 px-2 rounded-full'><PiInstagramLogoBold size={18} color={'white'}/></p>

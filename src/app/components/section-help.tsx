@@ -20,7 +20,7 @@ function SectionHelp() {
                     </div>
                 </div>
                 <div>
-                    <button className='rounded bg-secondary-400 py-6 px-6 font-semibold animate-pulse'>CHAMAR AGORA !</button>
+                    <a href='https://api.whatsapp.com/send?phone=5517991717370&text=Ol%C3%A1,%20gostaria%20de%20entender%20melhor%20' target='_blank' className='rounded bg-secondary-400 py-6 px-6 font-semibold animate-pulse'>CHAMAR AGORA !</a>
                 </div>
             </div>
         </GridContainer>

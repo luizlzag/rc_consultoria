@@ -79,7 +79,7 @@ function SectionSteps() {
                     '>
                         <FaWhatsapp   size={40} />
                            <div className='text-start'>
-                                <h1 >Fale agora com nossos especialistas</h1>
+                                <a href='https://api.whatsapp.com/send?phone=5517991717370&text=Ol%C3%A1,%20gostaria%20de%20entender%20melhor%20' target='_blank' >Fale agora com nossos especialistas</a>
                              </div>
                     </div>
             </GridContainer>

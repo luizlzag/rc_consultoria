@@ -54,7 +54,7 @@ function SectionFeedback() {
                    hover:brightness-100
                    '>
                             <IoIosAddCircleOutline size={50} />
-                            <h1 >Este espaço espera por você !</h1>
+                            <a href='https://api.whatsapp.com/send?phone=5517991717370&text=Ol%C3%A1,%20gostaria%20de%20entender%20melhor%20' target='_blank'>Este espaço espera por você !</a>
                    </div>
                 </div>
             </GridContainer>
