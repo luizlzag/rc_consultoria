@@ -33,7 +33,7 @@ function SectionServices() {
             stagger:0.3,
             scrollTrigger:{
                 trigger:section,
-                start:'40% center'
+                start:'46% center'
             }
         })
     }
