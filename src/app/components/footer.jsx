@@ -6,7 +6,7 @@ import { FaInstagram,FaFacebook,FaLinkedin } from "react-icons/fa6";
 
 function Footer() {
     return (
-         <footer className='bottom-0 py-4 px-4 bg-primary-100 text-center h-[160%] '>
+         <footer className='bottom-0 py-4 px-4 bg-primary-100 text-center h-[160%] z-10 '>
             <div className=' flex justify-between  cursor-pointer max-md:grid  '>
                <div className='grid gap-4 mb-6'>
                   <h1 className='text-white text-left text-2xl'>Contatos</h1>

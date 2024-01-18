@@ -51,8 +51,8 @@ function SectionServices() {
         const cardleft = [card01,card02,card03,card04]
         const cardright = [card05,card06,card07,card08,card09]
 
-        animateCards(cardleft,50)
-        animateCards(cardright,50)
+        animateCards(cardleft,10)
+        animateCards(cardright,10)
     },[])
 
 
