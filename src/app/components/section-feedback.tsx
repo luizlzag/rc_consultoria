@@ -11,7 +11,7 @@ function SectionFeedback() {
             <GridContainer className=''>
                 <h1 className='text-2xl font-bold text-primary-100'>DEPOIMENTO DOS NOSSOS CLIENTES</h1>
                 <div className='bg-secondary-400 rounded-full py-1 px-4 w-32 mb-10'/>
-                <div className='grid grid-cols-3 text-white gap-3'>
+                <div className='grid grid-cols-3 max-md:grid-cols-1 text-white gap-3'>
 
                    <div className=' bg-primary-100 py-4 px-4 shadow-lg flex  items-center rounded justify-around gap-3'>
                             <div>

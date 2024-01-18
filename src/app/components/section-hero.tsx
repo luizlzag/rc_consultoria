@@ -45,12 +45,12 @@ function SectionHero() {
         <section className='pt-20 h-screen bg-fixed bg-parallax bg-cover sticky' id='start'>
             <GridContainer>
                     <div className='pt-36 opacity-0 text-white' ref={textHeroRef}>
-                        <h1 className='text-4xl mb-4 font-semibold' >Somo especialistas em</h1>
-                        <h1 className='text-6xl mb-4 max-md:text-5xl font-bold'>Inteligência tributária</h1>
+                        <h1 className='text-4xl mb-4 font-semibold max-md:text-xl' >Somo especialistas em</h1>
+                        <h1 className='text-6xl mb-4 max-md:text-4xl font-bold'>Inteligência tributária</h1>
                         <p className='mb-14'>Oferecemos soluções eficientes para redução de custos tributários</p>
-                        <div className='flex gap-4 opacity-0' ref={textHero01Ref}>
-                            <a href='#steps' className='rounded outline outline-white px-8 py-4 hover:shadow-md hover:shadow-white'>Metodo de Trabalho</a>
-                            <a href='https://api.whatsapp.com/send?phone=5517991717370&text=Ol%C3%A1,%20gostaria%20de%20entender%20melhor%20' target='_blank' className='rounded px-8 py-4 bg-primary-100 hover:brightness-90'>Fale Conosco</a>
+                        <div className='flex gap-4 max-md:gap-2 opacity-0' ref={textHero01Ref}>
+                            <a href='#steps' className='rounded outline outline-white px-8 py-4 max-md:px-4 max-md:py-2 hover:shadow-md hover:shadow-white'>Metodo de Trabalho</a>
+                            <a href='https://api.whatsapp.com/send?phone=5517991717370&text=Ol%C3%A1,%20gostaria%20de%20entender%20melhor%20' target='_blank' className='rounded px-8 py-4 max-md:px-4 max-md:py-2 bg-primary-100 hover:brightness-90'>Fale Conosco</a>
                         </div>
                     </div>
             </GridContainer>

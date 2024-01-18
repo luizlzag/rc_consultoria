@@ -63,7 +63,7 @@ function SectionServices() {
                 <h1 className='text-2xl font-bold text-primary-100'>SERVIÇOS</h1>
                 <div className='bg-secondary-400 rounded-full py-1 px-4 w-32 '/>
             </div>
-            <div className='grid grid-cols-3 justify-center items-center gap-5 max-md:grid text-white '>
+            <div className='grid grid-cols-3 max-md:grid-cols-1 justify-center items-center gap-5 max-md:grid text-white '>
                     <div ref={card01Ref} className='opacity-0 flex gap-2 items-center bg-primary-100 py-4 px-4 h-[80] rounded shadow'><CiCircleCheck size={28} color={'#d4af37'} /> Recuperação Tributária</div>
                     <div ref={card02Ref} className='opacity-0  flex gap-2 items-center bg-primary-100 py-4 px-4 h-[80] rounded shadow'><CiCircleCheck size={28}  color={'#d4af37'}/> Consultoria Tributária e Previdenciária</div>
                     <div  ref={card03Ref} className='opacity-0 flex gap-2 items-center bg-primary-100 py-4 px-4 rounded shadow'><CiCircleCheck size={28}  color={'#d4af37'}/> Recuperação de Créditos Tributários</div>

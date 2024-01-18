@@ -24,7 +24,7 @@ function SectionSwiper() {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 5000,
+          delay: 999999,
           disableOnInteraction: false,
         }}
         speed={600}

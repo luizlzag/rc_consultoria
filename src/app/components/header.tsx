@@ -62,12 +62,12 @@ function Header() {
       <IoMenuSharp name={open ? 'close':'menu'}></IoMenuSharp>
       </div>
       
-      <ul className={`md:flex bg-transparent md:items-center gap-5 md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`} >
+      <ul className={`md:flex bg-transparent max-md:bg-whitergb md:items-center gap-5 md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`} >
 
         {
           Links.map((link)=>(
             <li key={link.name} className='md:ml-8 text-sm font-bold md:my-0 my-7'>
-              <a href={link.link} className='hover:bg-secondary-400  hover:text-white py-4 px-4 rounded-full duration-500'>{link.name}</a>
+              <a onClick={()=>setOpen(!open)} href={link.link} className='hover:bg-secondary-400  hover:text-white py-4 px-4 rounded-full duration-500'>{link.name}</a>
             </li>
           ))
         }

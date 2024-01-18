@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { PiInstagramLogoBold, PiFacebookLogoBold, PiLinkedinLogoBold } from "react-icons/pi";
 import GridContainer from './grid';
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { TbBrandGoogleMaps } from "react-icons/tb";
+import { FaInstagram,FaFacebook,FaLinkedin } from "react-icons/fa6";
 
 function BannerContat() {
     const [show, setShow] = useState(true);
@@ -48,9 +48,9 @@ function BannerContat() {
                     <a href='https://maps.app.goo.gl/7xxt2a4ykWH5ehEAA' target='_blank' className='text-white text-sm flex items-center justify-center gap-1'><TbBrandGoogleMaps />Av. Anísio Haddad, 6.900 | Sala 05 | S. J. Rio Preto - SP</a>
                 </div>
                 <div className='flex gap-4'>
-                    <a href='https://www.instagram.com/rctributaria/?hl=fr' target='_blank' className='hover:bg-blue-900 py-2 px-2 rounded-full'><PiInstagramLogoBold size={18} color={'white'}/></a>
-                    <a href='https://www.facebook.com/profile.php?id=61550853845754' target='_blank' className='hover:bg-blue-900 py-2 px-2 rounded-full'><PiFacebookLogoBold size={18} color={'white'}/></a>
-                    <a href='https://www.linkedin.com/company/rc-consultoria-tribut%C3%A1ria/' target='_blank' className='hover:bg-blue-900 py-2 px-2 rounded-full'><PiLinkedinLogoBold size={18} color={'white'}/></a>
+                    <a href='https://www.instagram.com/rctributaria/?hl=fr' target='_blank' className='hover:bg-blue-900 py-2 px-2 rounded-full'><FaInstagram  size={18} color={'white'}/></a>
+                    <a href='https://www.facebook.com/profile.php?id=61550853845754' target='_blank' className='hover:bg-blue-900 py-2 px-2 rounded-full'><FaFacebook size={18} color={'white'}/></a>
+                    <a href='https://www.linkedin.com/company/rc-consultoria-tribut%C3%A1ria/' target='_blank' className='hover:bg-blue-900 py-2 px-2 rounded-full'><FaLinkedin size={18} color={'white'}/></a>
                 </div>
                 <div>
                     

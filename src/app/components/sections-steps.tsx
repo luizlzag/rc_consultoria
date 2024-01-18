@@ -18,8 +18,8 @@ function SectionSteps() {
                     <h1 className='text-2xl font-bold text-primary-100'>ETAPAS DO PROJETO</h1>
                     <div className='bg-secondary-400 rounded-full py-1 px-4 w-32 '/>
                 </div>
-                <div className='flex gap-6 mb-1'> 
-                    <div className='grid grid-cols-2 gap-4 text-center max-md:grid-cols-2 text-primary-100 font-semibold'>
+                <div className='flex gap-6 mb-1 max-md:grid'> 
+                    <div className='grid grid-cols-2  gap-4 text-center max-md:grid-cols-1 text-primary-100 font-semibold'>
                         <div className='bg-secondary-400 rounded shadow-md py-4 px-4 flex gap-6 items-center'>
                             <FaFileContract size={56} />
                             <div className='text-start'>
