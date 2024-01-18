@@ -43,7 +43,7 @@ function Header() {
       ];
       let [open,setOpen]=useState(false);
     return ( 
-      <header className={' w-full fixed top-0 left-0 z-10 bg-whitergb saturate-150 backdrop-blur-xl transition-all duration-500 ease-in text-[rgba(26, 26, 12, 0.8)]'} >
+      <header className={' w-full fixed top-0 left-0 z-10 bg-white transition-all duration-500 ease-in text-[rgba(26, 26, 12, 0.8)]'} >
       <BannerContat />
       <div className='md:flex items-center justify-between  md:px-10 px-7'>
       <div className='font-bold text-2xl cursor-pointer flex items-center 
@@ -52,7 +52,7 @@ function Header() {
         <Image 
         src={Logo}
         alt='logo'
-        className='w-16'
+        className='w-20'
         />
         
         </span>
