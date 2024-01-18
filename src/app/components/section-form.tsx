@@ -39,7 +39,7 @@ function SectionForm() {
     <section className='pt-10 p-4 max-md:p-0 max-md:pt-16' id='form'>
         <GridContainer className=' flex  items-center gap-6 max-md:gap-0 bg-white rounded-xl shadow-lg max-md:grid'>
 
-        <div className='bg-white rounded-md px-4 py-4 max-md:w-[300px] text-center align-middle text-secondary-400 grid'>
+        <div className='bg-white rounded-md px-4 py-4 max-md:px-0 max-md:py-0 max-md:w-[60%]  text-secondary-400 grid'>
                 <div className='grid gap-4 mb-4 text-lg cursor-pointer max-md:text-sm'>
                     <a  href='https://api.whatsapp.com/send?phone=5517991717370&text=Ol%C3%A1,%20gostaria%20de%20entender%20melhor%20' target='_blank' className=' rounded max-md:px-3 max-md:py-5  py-10 px-8 bg-primary-100
                     brightness-75
@@ -61,7 +61,7 @@ function SectionForm() {
         </div>
 
 
-          <div className=' m-6 py-4 px-4 w-full max-md:w-[300px] '>
+          <div className=' m-6 py-4 px-4 w-full max-md:w-[300px] max-md:py-0 max-md:px-0 '>
             <h1 className='text-2xl font-bold'>Fale com a RC Consultoria</h1>
             <p className='text-black text-base'>Em breve nossos especialistas entraram em contato</p>
              <form  onSubmit={sendEmail}>

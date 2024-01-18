@@ -1,7 +1,6 @@
 "use client";
-import React,{useRef,useEffect} from 'react'
+import React from 'react'
 import GridContainer from './grid';
-import gsap from 'gsap';
 
 
 const sectionStyle = {
@@ -13,30 +12,12 @@ const sectionStyle = {
 };
 
 function SectionHero2() {
-    const textHeroRef = useRef(null)
-    const mockupLeftRef = useRef(null)
-    const mockupRightRef= useRef(null)
-    useEffect(()=>{
-        const textHero = textHeroRef.current
-        const mLeft = mockupLeftRef.current
-        const mRight = mockupRightRef.current
 
-        gsap.fromTo(textHero,{
-            opacity:0,
-            y:25,
-            duration:1,
-        },{
-            opacity:1,
-            y:0,
-            duration:1,
-            ease:'power4.out'
-        })
-    },[]);
 
     return ( 
         <section className='pt-20 h-screen bg-fixed bg-banner2 bg-cover ' id='start'>
             <GridContainer>
-                    <div className='pt-32 opacity-0 text-white' ref={textHeroRef}>
+                    <div className='pt-32  text-white'>
                         <h1 className='text-5xl font-extrabold w-[60%] max-sm:w-[85%] mb-5 text-white max-md:text-xl'>Somos a solução financeira para sua empresa crescer</h1>
                         <div className='bg-secondary-400 rounded-full py-2 px-4 w-32 mb-10'/>
                         <p className='mb-5 text-3xl max-md:text-lg w-[46%] max-md:w-[70%]'>Nós somos especialistas em Recuperação Tributária</p>
