@@ -45,8 +45,7 @@ function SectionFeedback() {
                             <div>
                             </div>
                    </div>
-
-                   <div className=' bg-primary-100 py-4 px-4 shadow-lg flex items-center rounded justify-center gap-3 cursor-pointer hover:-m-2 
+                   <a href='https://api.whatsapp.com/send?phone=5517991717370&text=Ol%C3%A1,%20gostaria%20de%20entender%20melhor%20' target='_blank' className=' bg-primary-100 py-4 px-4 shadow-lg flex items-center rounded justify-center gap-3 cursor-pointer hover:-m-2 
                    transition-all
                    duration-500
                    ease-out
@@ -54,8 +53,8 @@ function SectionFeedback() {
                    hover:brightness-100
                    '>
                             <IoIosAddCircleOutline size={50} />
-                            <a href='https://api.whatsapp.com/send?phone=5517991717370&text=Ol%C3%A1,%20gostaria%20de%20entender%20melhor%20' target='_blank'>Este espaço espera por você !</a>
-                   </div>
+                            <p>Este espaço espera por você !</p>
+                   </a>
                 </div>
             </GridContainer>
         </section>

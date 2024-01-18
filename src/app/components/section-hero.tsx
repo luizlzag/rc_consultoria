@@ -49,11 +49,10 @@ function SectionHero() {
                         <h1 className='text-6xl mb-4 max-md:text-5xl font-bold'>Inteligência tributária</h1>
                         <p className='mb-14'>Oferecemos soluções eficientes para redução de custos tributários</p>
                         <div className='flex gap-4 opacity-0' ref={textHero01Ref}>
-                            <button className='rounded outline outline-white px-8 py-4 hover:shadow-md hover:shadow-white'>Metodo de Trabalho</button>
+                            <a href='#steps' className='rounded outline outline-white px-8 py-4 hover:shadow-md hover:shadow-white'>Metodo de Trabalho</a>
                             <a href='https://api.whatsapp.com/send?phone=5517991717370&text=Ol%C3%A1,%20gostaria%20de%20entender%20melhor%20' target='_blank' className='rounded px-8 py-4 bg-primary-100 hover:brightness-90'>Fale Conosco</a>
                         </div>
                     </div>
-                    <h1 className='pt-36'>TESTE</h1>
             </GridContainer>
         </section>
      );

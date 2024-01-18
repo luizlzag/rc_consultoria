@@ -42,15 +42,15 @@ function BannerContat() {
                      <a href='https://api.whatsapp.com/send?phone=5517991717370&text=Ol%C3%A1,%20gostaria%20de%20entender%20melhor%20' target='_blank' className='text-white text-sm flex items-center justify-center gap-1'> <BsFillTelephoneFill />(17) 99171-7370</a>
                 </div>
                 <div >
-                    <a className='text-white text-sm flex items-center justify-center gap-1'><MdEmail />contato@rcconsultoriatributaria.com.br</a>
+                    <a href='mailto:contato@rcconsultoriatributaria.com.br' target='_blank' className='text-white text-sm flex items-center justify-center gap-1'><MdEmail />contato@rcconsultoriatributaria.com.br</a>
                 </div>
                 <div>
                     <a href='https://maps.app.goo.gl/7xxt2a4ykWH5ehEAA' target='_blank' className='text-white text-sm flex items-center justify-center gap-1'><TbBrandGoogleMaps />Av. Anísio Haddad, 6.900 | Sala 05 | S. J. Rio Preto - SP</a>
                 </div>
                 <div className='flex gap-4'>
-                    <p className='hover:bg-blue-900 py-2 px-2 rounded-full'><PiInstagramLogoBold size={18} color={'white'}/></p>
-                    <p className='hover:bg-blue-900 py-2 px-2 rounded-full'><PiFacebookLogoBold size={18} color={'white'}/></p>
-                    <p className='hover:bg-blue-900 py-2 px-2 rounded-full'><PiLinkedinLogoBold size={18} color={'white'}/></p>
+                    <a href='https://www.instagram.com/rctributaria/?hl=fr' target='_blank' className='hover:bg-blue-900 py-2 px-2 rounded-full'><PiInstagramLogoBold size={18} color={'white'}/></a>
+                    <a href='https://www.facebook.com/profile.php?id=61550853845754' target='_blank' className='hover:bg-blue-900 py-2 px-2 rounded-full'><PiFacebookLogoBold size={18} color={'white'}/></a>
+                    <a href='https://www.linkedin.com/company/rc-consultoria-tribut%C3%A1ria/' target='_blank' className='hover:bg-blue-900 py-2 px-2 rounded-full'><PiLinkedinLogoBold size={18} color={'white'}/></a>
                 </div>
                 <div>
                     

@@ -12,7 +12,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 function SectionSteps() {
     return ( 
-        <section>
+        <section id='steps'>
             <GridContainer className='pt-20 '>
                 <div className='mb-4'>
                     <h1 className='text-2xl font-bold text-primary-100'>ETAPAS DO PROJETO</h1>

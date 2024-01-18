@@ -45,11 +45,11 @@ function SectionForm() {
                     brightness-75
                     hover:brightness-110
                     transition-all duration-500 flex items-center justify-center gap-2'><FaWhatsapp/>(17) 99171-7370</a>
-                    <a className=' rounded  py-10 px-8 bg-primary-100
+                    <a href='mailto:contato@rcconsultoriatributaria.com.br' target='_blank' className=' rounded  py-10 px-8 bg-primary-100
                     brightness-75
                     hover:brightness-110
                     transition-all duration-500 flex items-center justify-center gap-2'><MdEmail/>contato@rcconsultoriatributaria.com.br</a>
-                    <a className=' rounded  py-10 px-8 bg-primary-100
+                    <a href='https://www.instagram.com/rctributaria/?hl=fr' target='_blank' className=' rounded  py-10 px-8 bg-primary-100
                     brightness-75
                     hover:brightness-110
                     transition-all duration-500 flex items-center justify-center gap-2'><PiInstagramLogoBold/>@RCConsultoria</a>

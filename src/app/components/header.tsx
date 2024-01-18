@@ -40,7 +40,6 @@ function Header() {
         {name:"Início",link:"#start"},
         {name:"Quem Somos",link:"#about"},
         {name:"Serviços",link:"#services"},
-        {name:"Diferenciais",link:"#differential"},
       ];
       let [open,setOpen]=useState(false);
     return ( 
