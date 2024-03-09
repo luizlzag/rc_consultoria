@@ -67,7 +67,7 @@ function Header() {
         {
           Links.map((link)=>(
             <li key={link.name} className='md:ml-8 text-sm font-bold md:my-0 my-7'>
-              <a onClick={()=>setOpen(!open)} href={link.link} className='hover:bg-secondary-400  hover:text-white py-4 px-4 rounded-full duration-500'>{link.name}</a>
+              <a onClick={()=>setOpen(!open)} href={link.link} className='hover:border-b-2 hover:border-secondary-400 py-2 px-2 ease-in duration-200'>{link.name}</a>
             </li>
           ))
         }

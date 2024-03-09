@@ -135,7 +135,7 @@ function SectionWhyContract() {
                     </div>
                     <div className='rounded-md bg-white shadow-xl  px-4 py-4 transition-all ' ref={card02Ref}>
                         <div className='rounded-full flex justify-center mb-10'>
-                            <CgDanger size={28} ccolor={'#0A1130'}/>
+                            <CgDanger size={28} color={'#0A1130'}/>
                         </div>
                         <h1 className='font-bold'>Transparência sobre os créditos levantados e riscos envolvidos</h1>
                         <p>Deixamos claro se há algum risco envolvido na operação, por menor que ele seja. Todo o trabalho executado segue a legislação vigente sempre em conformidade com as normas federais, estaduais e municipais.</p>

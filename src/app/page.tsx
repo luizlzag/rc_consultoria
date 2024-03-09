@@ -8,11 +8,14 @@ import SectionWhyContract from './components/section-contract'
 import SectionSteps from './components/sections-steps'
 import SectionForm from './components/section-form'
 import SectionFeedback from './components/section-feedback'
+import ScrollSmoother from './components/ScrollSmoother'
+
 
 export default function Home() {
   return (
     <>
-    <SectionSwiper/>
+    <ScrollSmoother /> 
+    <SectionSwiper />
     <SectionWhyContract/>
      <SectionAbout/>
      <SectionHelp/>
